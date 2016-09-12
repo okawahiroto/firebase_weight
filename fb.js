@@ -7,6 +7,10 @@ myFirebaseRef.push({
     per: "33"
 });
 
+$(function(){
+　$("#date").datepicker();
+});
+
 function button01() {
     console.log('a');
     var date = document.getElementById("date").value;
